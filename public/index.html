@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script defer src="/js/phaser.min.js"></script>
+    <script defer src="/js/script.js" ></script>
+
+
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+
+    <div class="popup hidden" id="popup">
+        <!-- game over popup-->
+        <div class="popup__content">
+            <button class="popup__close" onclick="closePopup(this)">&times;</button>
+            <h2 class="heading-secondary u-margin-bottom-small">
+                Your score
+            </h2>
+            <p class="popup__text">
+                <span id="score">0</span> Points
+            </p>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
