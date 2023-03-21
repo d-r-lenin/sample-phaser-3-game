@@ -31,7 +31,7 @@ const game = new Phaser.Game(config);
 
 function preload() {
     // set oring for assets
-    this.load.setBaseURL("http://labs.phaser.io/assets");
+    this.load.setBaseURL("https://labs.phaser.io/assets");
     this.load.image("sky", "skies/sky3.png");
     this.load.image("ground", "/sprites/platform.png");
     this.load.image("coin", "particles/coin.png");
